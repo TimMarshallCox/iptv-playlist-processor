@@ -7,8 +7,8 @@ then
 fi
 
 # Create necessary directories and set permissions
-mkdir .tmp credentials downloads processed
-chmod 700 .tmp credentials downloads processed
+mkdir .tmp providers downloads processed
+chmod 700 .tmp providers downloads processed
 
 # Set permissions and install location for scripts
 chmod 744 process.sh search.sh update.sh
